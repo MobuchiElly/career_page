@@ -17,5 +17,5 @@ UTCcurrentTime.forEach(value => {
 //Check to ensure the naturalWidth and naturalHeight are not altered
 const image = document.getElementById("image");
 const {naturalWidth, naturalHeight, width, height} = image;
-width !== 0 || height !== 0 ? window.alert("The natural dimension of the image property has been altered") : null; 
+naturalWidth === 0 || naturalHeight === 0 ? window.alert("The natural dimension of the image property has been altered") : null;
 

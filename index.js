@@ -14,8 +14,3 @@ currentDay.forEach((value) => {
 UTCcurrentTime.forEach(value => {
     value.innerText = utcTime;
 })
-
-
-const image = document.getElementById("image")
-console.log(image.naturalWidth, image.naturalHeight)
-console.log(image.clientWidth, image.clientHeight);
